@@ -11,10 +11,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rishab Kumar",
+  title: "Hi all, I'm Rishab",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate tech geek 💻 having an experience of delivering Web and Mobile applications with the help of Cloud ☁."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -24,13 +24,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/rishabkumar7",
+  linkedin: "https://www.linkedin.com/in/rishabkumar7/",
+  gmail: "rishabkumar7@gmail.com",
+  twitter: "https://twitter.com/rishabk7",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -39,7 +36,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Tech entusiast exploting the world of Cloud",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -63,24 +60,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -95,8 +80,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "python",
@@ -116,10 +105,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "University Of London",
+      logo: require("./assets/images/UOL.png"),
+      subHeader: "BSc Computer Science",
+      duration: "May 2021 - ",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -127,10 +116,10 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "St. Lawrence College",
+      logo: require("./assets/images/slc.png"),
+      subHeader: "Computer Networking",
+      duration: "May 2016 - April 2018",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -164,10 +153,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "DevOps Engineer",
+      company: "ECi Software Solutions",
+      companylogo: require("./assets/images/eci.jpg"),
+      date: "Feb 2021 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -175,17 +164,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "CloudOps Engineer",
+      company: "ECi Software Solutions",
+      companylogo: require("./assets/images/eci.jpg"),
+      date: "May 2019 – Feb 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Technical Support Specialist",
+      company: "ECi Software Solutions",
+      companylogo: require("./assets/images/eci.jpg"),
+      date: "May 2018 – May 2019",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -229,7 +218,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -242,47 +231,48 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Azure Administrator",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Microsoft Azure Administrator AZ-104 certification.",
+      image: require("./assets/images/az-104.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credly.com/badges/31150f89-4eeb-4141-b720-427babd90d44/public_url"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Solutions Architect Associate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "AWS Solutions Architect Associate Certification.",
+      image: require("./assets/images/aws-sa.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.credly.com/badges/e2a7ae13-77b0-4356-a6fb-ccfa081bdd91/public_url"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Terraform Associate",
+      subtitle: "HashiCorp Certified: Terraform Associate.",
+      image: require("./assets/images/tfa.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://www.credly.com/badges/9c9d89c2-2f88-42d0-80b0-201687079cb3/public_url"
+        }
+      ]
+    },
+    {
+      title: "AWS SysOps Administrator",
+      subtitle: "AWS Certified SysOps Administrator – Associate.",
+      image: require("./assets/images/aws-sys.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/ee413500-3137-4040-8bc9-657b26a4c9c5/public_url"
         }
       ]
     }
@@ -299,16 +289,31 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://blog.rishabkumar.com/az-104-study-guide-azure-administrator",
+      title: "AZ-104 Study Guide: Azure Administrator",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://blog.rishabkumar.com/a-cloud-guru-azure-resume-challenge-2021",
+      title: "Cloud Resume Challenge - Azure",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    },
+    {
+      url: "https://blog.rishabkumar.com/how-i-passed-the-sc-900-microsoft-security-compliance-and-identity-fundamentals-exam",
+      title: "How I passed the Microsoft Security Fundamentals SC-900 exam",
+      description: "This week I got my SC-900 exam results back and I passed!"
+    },
+    {
+      url: "https://blog.rishabkumar.com/adding-custom-domain-and-ssl-certificate-azure-static-web-apps",
+      title: "Adding custom domain and SSL certificate Azure Static Web Apps",
+      description: "In the first article, we saw how to deploy a website with Azure Static Web app, it does the CI/CD for you. In this one, we will add a custom domain."
+    },
+    {
+      url: "https://blog.rishabkumar.com/what-is-wsl-and-how-to-use-it-with-vscode",
+      title: "What is WSL and how to use it with VSCode",
+      description: "This week I got my SC-900 exam results back and I passed!"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -330,7 +335,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -341,7 +346,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/rishabkumar/embed/episodes/How-they-started-their-Tech-Careers-with-John-Lunn-e13jfq7", "https://anchor.fm/rishabkumar/embed/episodes/How-they-started-their-Tech-Careers-with-Anais-Urlichs-e14evgt", "https://anchor.fm/rishabkumar/embed/episodes/How-they-started-their-Tech-Careers-with-Lou-Bichard-e17tkni"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -357,8 +362,8 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "rishabk7", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
