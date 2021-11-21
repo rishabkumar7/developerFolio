@@ -26,8 +26,8 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/rishabkumar7",
   linkedin: "https://www.linkedin.com/in/rishabkumar7/",
-  gmail: "rishabkumar7@gmail.com",
   twitter: "https://twitter.com/rishabk7",
+  gmail: "rishabkumar7@gmail.com",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -36,7 +36,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Tech entusiast exploting the world of Cloud",
+  subTitle: "Tech enthusiast exploring the world of Cloud",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -104,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
+    /*{
       schoolName: "University Of London",
       logo: require("./assets/images/UOL.png"),
       subHeader: "BSc Computer Science",
@@ -114,7 +114,7 @@ const educationInfo = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
+    }, */
     {
       schoolName: "St. Lawrence College",
       logo: require("./assets/images/slc.png"),
@@ -288,6 +288,12 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
+    {
+      url: "https://blog.rishabkumar.com/installing-grafana-and-serving-via-nginx-as-reverse-proxy",
+      title: "Installing Grafana and serving via Nginx as reverse proxy",
+      description: "We install Grafana on an Ubuntu VM and use NGINX as a reverse proxy to serve it."
+
+    },
     {
       url: "https://blog.rishabkumar.com/az-104-study-guide-azure-administrator",
       title: "AZ-104 Study Guide: Azure Administrator",
