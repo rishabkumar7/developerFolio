@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -28,6 +28,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin-in"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube"></i>
           <span></span>
         </a>
       ) : null}

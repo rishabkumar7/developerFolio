@@ -14,20 +14,22 @@ const greeting = {
   username: "Rishab Kumar",
   title: "Hi all, I'm Rishab",
   subTitle: emoji(
-    "A passionate tech geek 💻 having an experience of delivering Web and Mobile applications with the help of Cloud ☁."
+    "A tech enthusiast 💻 having an experience of delivering Web applications with the help of Cloud ☁."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
+
 // Social Media Links
 
 const socialMediaLinks = {
+  twitter: "https://twitter.com/rishabk7",
   github: "https://github.com/rishabkumar7",
   linkedin: "https://www.linkedin.com/in/rishabkumar7/",
-  twitter: "https://twitter.com/rishabk7",
-  gmail: "rishabkumar7@gmail.com",
+  instagram: "https://instagram.com/rishabincloud",
+  youtube: "https://youtube.com/rishabkumar7",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -36,7 +38,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Tech enthusiast exploring the world of Cloud",
+  subTitle: "Tech enthusiast exploring the world of Cloud Computing",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -64,16 +66,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "aws",
@@ -84,12 +82,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "linux",
-      fontAwesomeClassname: "fab fa-linux"
+      skillName: "gcp",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "docker",
@@ -120,8 +122,7 @@ const educationInfo = {
       logo: require("./assets/images/slc.png"),
       subHeader: "Computer Networking",
       duration: "May 2016 - April 2018",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Dean's List Award. Took courses about Software Engineering, Web Development, Operating Systems, Hardware and Networking",
     }
   ]
 };
@@ -153,29 +154,51 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "DevOps Engineer",
-      company: "ECi Software Solutions",
-      companylogo: require("./assets/images/eci.jpg"),
-      date: "Feb 2021 – Present",
+      role: "Staff Developer Evangelist",
+      company: "Twilio",
+      companylogo: require("./assets/images/twilio-logo.png"),
+      /*date: "May 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      ]*/
+    },
+    {
+      role: "Technical Solutions Specialist",
+      company: "Google",
+      companylogo: require("./assets/images/google.jpg"),
+      date: "Jan 2022 – May 2022",
+      /*desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+      role: "DevOps Engineer",
+      company: "ECI Software Solutions",
+      companylogo: require("./assets/images/eci.jpg"),
+      date: "Feb 2021 – Jan 2022",
+      /* desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
     },
     {
       role: "CloudOps Engineer",
-      company: "ECi Software Solutions",
+      company: "ECI Software Solutions",
       companylogo: require("./assets/images/eci.jpg"),
       date: "May 2019 – Feb 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      /* desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."*/
     },
     {
       role: "Technical Support Specialist",
-      company: "ECi Software Solutions",
+      company: "ECI Software Solutions",
       companylogo: require("./assets/images/eci.jpg"),
       date: "May 2018 – May 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      /* desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." */
     }
   ]
 };
@@ -289,6 +312,12 @@ const blogSection = {
 
   blogs: [
     {
+      url: "https://blog.rishabkumar.com/what-is-devops-what-does-a-devops-engineer-do",
+      title: "What Is DevOps? What does a DevOps Engineer do?",
+      description: "So as some of you may know I have been working as a DevOps Engineer for almost a year now, and I am often asked, what is DevOps? and what does a DevOps Engineer do?"
+
+    }
+    , {
       url: "https://blog.rishabkumar.com/installing-grafana-and-serving-via-nginx-as-reverse-proxy",
       title: "Installing Grafana and serving via Nginx as reverse proxy",
       description: "We install Grafana on an Ubuntu VM and use NGINX as a reverse proxy to serve it."
@@ -320,7 +349,13 @@ const blogSection = {
       url: "https://blog.rishabkumar.com/what-is-wsl-and-how-to-use-it-with-vscode",
       title: "What is WSL and how to use it with VSCode",
       description: "This week I got my SC-900 exam results back and I passed!"
+    },
+    {
+      url: "https://blog.rishabkumar.com/how-easy-it-is-to-deploy-with-azure-static-web-apps",
+      title: "How easy it is to deploy with Azure Static Web Apps",
+      description: "What is Azure Static Web Apps, in Microsoft's words, A modern web app service that offers streamlined full-stack development from source code to global high availability."
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -348,11 +383,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I LOVE TO TALK TO PEOPLE ABOUT THEIR TECH CAREERS",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/rishabkumar/embed/episodes/How-they-started-their-Tech-Careers-with-John-Lunn-e13jfq7", "https://anchor.fm/rishabkumar/embed/episodes/How-they-started-their-Tech-Careers-with-Anais-Urlichs-e14evgt", "https://anchor.fm/rishabkumar/embed/episodes/How-they-started-their-Tech-Careers-with-Lou-Bichard-e17tkni"
+    "https://open.spotify.com/embed/episode/3sYMjFVpG7Iuj9skuHzetD?utm_source=generator", "https://open.spotify.com/embed/episode/3GB4ugQ3JDHczoyAbNRpny?utm_source=generator"
   ],
   display: true // Set false to hide this section, defaults to true
 };

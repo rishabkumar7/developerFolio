@@ -64,6 +64,9 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
+          <li>
+            <a href="https://notes.rishab.cloud" target="_blank">Notes</a>
+          </li>
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
