@@ -14,7 +14,7 @@ const greeting = {
   username: "Rishab Kumar",
   title: "Hi all, I'm Rishab",
   subTitle: emoji(
-    "A tech enthusiast 💻 having an experience of delivering Web applications with the help of Cloud ☁."
+    "A tech enthusiast 💻 with experience delivering Web applications in the Cloud ☁"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
